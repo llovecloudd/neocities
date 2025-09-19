@@ -3,9 +3,9 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width" />
-	<title>prince lovecloud!!!</title>
-	<link rel="stylesheet" href="/style.css" />
-	<script src="/layout.js"></script>
+	<title>[REPLACE]</title>
+	<link rel="stylesheet" href="/public/style.css" />
+	<script src="/public/layout.js"></script>
 </head>
 <body>
 </body>
