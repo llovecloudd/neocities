@@ -1,5 +1,5 @@
 body {
-	background-image: url("/public/images/tora7-cloud.jpg");
+	background-image: url("/images/tora7-cloud.jpg");
 	display: grid;
     grid-template-columns: 1fr 60% 1fr;
 	grid-template-areas:
