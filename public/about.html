@@ -15,12 +15,15 @@
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
+	justify-content: flex-start;
 }
-.buttons img {
-	max-width: 88px;
+#marquee img {
   max-height: 31px;
-}</style>
+}
+#marquee a{
+  text-decoration: none;
+}
+</style>
 </head>
 
 <body>
@@ -43,11 +46,16 @@
       <p>i'm cloud, a 20-something kittyguy currently living in the uk. in the real world i'm a librarian and calligraphy artist currently saving up for top surgery and <a href="mbbb.html">my beautiful blue barletta</a>. but on neocities i'm just another cat!!</p>
       <p>describing myself in words is hard, which is part of why i decided to make this site. you can find way more out about me by clicking around and exploring all my stuff. please don't be shy to say hi on <a href="https://neocities.org/site/lovecloud">my neocities page</a> - i'm a bit shy but friendly i promise <img src="images/graphic-cat3.gif" alt=""></p>
     </section>
-    <section class="buttons">
+  <section>
+    <marquee scrolldelay="100" id="marquee" class="buttons" aria-hidden="true">
       <img src="images/bbs/a42.png" alt="">
-      <a href="https://graphic.neocities.org/"><img src="images/bbs/graphic-cat2.gif" alt=""></a>
-      <a href="https://biscuit.crd.co/"><img src="/images/bbs/biscuitcrd-bl.png" alt=""></a>
-    </section>
+      <img src="/images/bbs/lhl-paws.png">
+      <img src="/images/bbs/lhl-madeforneocities.png">
+      <img src="/images/bbs/lhl-vscode.png">
+      <a href="https://plasticdino.net/graphics"><img src="/images/bbs/plasticdino-queer.png"></a>
+      <a href="https://graphic.neocities.org/"><img src="images/bbs/graphic-cat2.gif" alt=""></a></a>
+    </marquee>
+  </section>
     <section>
       <h3>things i like</h3>
       <ul id="interests">
