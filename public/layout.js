@@ -84,6 +84,6 @@ const headerEl = `
 // You don't need to use the <footer> element, but I recommend it.
 const footerEl = `
 	<footer>
-		<p>2025 &#9829; &#9729; | <em>last updated</em>: sep 2025</p>
+		<p>2025 &#9829; &#9729; | <em>last updated</em>: sep 2025 | <a href="/sitemap.html">sitemap</a> </p>
 	</footer>
 `;
